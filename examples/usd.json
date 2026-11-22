@@ -1,0 +1,9 @@
+{
+    "code": "USD",
+    "singular": "دولار أمريكي",
+    "dual": "دولاران أمريكيان",
+    "plural": "دولارات أمريكية",
+    "gender": "masculine",
+    "symbol": "$",
+    "subunit": {"singular": "سنت", "dual": "سنتان", "plural": "سنتات", "gender": "masculine"}
+}

@@ -1,0 +1,10 @@
+{
+    "code": "KWD",
+    "singular": "دينار كويتي",
+    "dual": "ديناران كويتيان",
+    "plural": "دنانير كويتية",
+    "gender": "masculine",
+    "ratio": 1000,
+    "symbol": "د.ك",
+    "subunit": {"singular": "فلس", "dual": "فلسان", "plural": "فلوس", "gender": "masculine"}
+}

@@ -1,0 +1,9 @@
+{
+    "code": "SYP",
+    "singular": "ليرة سورية",
+    "dual": "ليرتان سوريتان",
+    "plural": "ليرات سورية",
+    "gender": "feminine",
+    "symbol": "ل.س",
+    "subunit": {"singular": "قرش", "dual": "قرشان", "plural": "قروش", "gender": "masculine"}
+}
