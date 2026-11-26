@@ -1,0 +1,10 @@
+{
+    "code": "JOD",
+    "singular": "دينار أردني",
+    "dual": "ديناران أردنيان",
+    "plural": "دنانير أردنية",
+    "gender": "masculine",
+    "ratio": 1000,
+    "symbol": "د.أ",
+    "subunit": {"singular": "فلس", "dual": "فلسان", "plural": "فلوس", "gender": "masculine"}
+}

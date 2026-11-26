@@ -1,0 +1,9 @@
+{
+    "code": "EGP",
+    "singular": "جنيه مصري",
+    "dual": "جنيهان مصريان",
+    "plural": "جنيهات مصرية",
+    "gender": "masculine",
+    "symbol": "ج.م",
+    "subunit": {"singular": "قرش", "dual": "قرشان", "plural": "قروش", "gender": "masculine"}
+}

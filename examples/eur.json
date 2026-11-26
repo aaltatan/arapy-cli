@@ -1,0 +1,10 @@
+{
+    "code": "EUR",
+    "singular": "يورو",
+    "dual": "يوروان",
+    "plural": "يوروهات",
+    "gender": "masculine",
+    "many": "يورو",
+    "symbol": "€",
+    "subunit": {"singular": "سنت", "dual": "سنتان", "plural": "سنتات", "gender": "masculine"}
+}

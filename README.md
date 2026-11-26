@@ -13,6 +13,9 @@ uv tool install arapy-cli
 pipx install arapy-cli
 ```
 
+**Documentation: [aaltatan.github.io/arapy-cli](https://aaltatan.github.io/arapy-cli/)**:
+a step-by-step guide, real-world recipes and the full reference.
+
 ## Contents
 
 - [Commands](#commands)

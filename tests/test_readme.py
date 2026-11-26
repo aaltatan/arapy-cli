@@ -1,4 +1,4 @@
-"""Run every `arapy` command in the README's bash blocks and check the output it shows.
+"""Run every `arapy` command in the README's and docs' bash blocks and check their output.
 
 The output is the comment after the command (`arapy words 2  # اثنان`), or the `# ` lines
 right below it; a command with neither only has to succeed.
@@ -6,6 +6,7 @@ right below it; a command with neither only has to succeed.
 
 import re
 import shlex
+import textwrap
 from pathlib import Path
 
 import pytest
@@ -15,9 +16,16 @@ from arapy_cli.cli.app import app
 
 ROOT = Path(__file__).parent.parent
 
-BLOCKS = re.findall(
-    r"```bash\n(.*?)```", (ROOT / "README.md").read_text(encoding="utf-8"), re.DOTALL
-)
+PAGES = [ROOT / "README.md", *sorted((ROOT / "docs").rglob("*.md"))]
+
+# docs indent code blocks inside tabs and admonitions, so the fence may be indented
+FENCE = re.compile(r"^([ \t]*)```bash\n(.*?)^\1```", re.DOTALL | re.MULTILINE)
+
+BLOCKS = [
+    textwrap.dedent(block)
+    for page in PAGES
+    for _, block in FENCE.findall(page.read_text(encoding="utf-8"))
+]
 
 
 def examples() -> list[tuple[str, list[str]]]:

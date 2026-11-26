@@ -15,6 +15,12 @@ dependencies = [
     "typer-swissknife>=0.1.1",
 ]
 
+[project.urls]
+Homepage = "https://github.com/aaltatan/arapy-cli"
+Documentation = "https://aaltatan.github.io/arapy-cli/"
+Repository = "https://github.com/aaltatan/arapy-cli"
+Issues = "https://github.com/aaltatan/arapy-cli/issues"
+
 [project.scripts]
 arapy = "arapy_cli:main"
 
@@ -27,6 +33,9 @@ dev = [
     "mypy>=2.4.1",
     "pytest>=9.2.0",
     "ruff>=0.17.6",
+]
+docs = [
+    "mkdocs-material>=9.8.2",
 ]
 
 [tool.pytest.ini_options]

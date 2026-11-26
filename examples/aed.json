@@ -1,0 +1,9 @@
+{
+    "code": "AED",
+    "singular": "درهم إماراتي",
+    "dual": "درهمان إماراتيان",
+    "plural": "دراهم إماراتية",
+    "gender": "masculine",
+    "symbol": "د.إ",
+    "subunit": {"singular": "فلس", "dual": "فلسان", "plural": "فلوس", "gender": "masculine"}
+}

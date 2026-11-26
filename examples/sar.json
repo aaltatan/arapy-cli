@@ -1,0 +1,9 @@
+{
+    "code": "SAR",
+    "singular": "ريال سعودي",
+    "dual": "ريالان سعوديان",
+    "plural": "ريالات سعودية",
+    "gender": "masculine",
+    "symbol": "ر.س",
+    "subunit": {"singular": "هللة", "dual": "هللتان", "plural": "هللات", "gender": "feminine"}
+}
